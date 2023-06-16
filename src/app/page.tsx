@@ -1,9 +1,32 @@
 import Image from 'next/image'
-
+import { ImageResponse } from 'next/server';
+import Link from 'next/link'
 export default function Home() {
+  
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
+    <div className="flex min-h-screen flex-col items-center justify-between p-24">
+      <Image 
+        src="/imac.jpg"
+        alt="imac"
+        width="0"
+        height="0"
+        sizes="100vw"
+        className="w-full h-full"
+      />
+      <div className="bg-green mx-1 p-5">
+        <h1>Hello, Tailwind!</h1>
+      </div>
+      <div className="bg-air mx-1 p-5 text-blue">
+        <h1>Farid Akanda</h1>
+      </div>
+      
+
+    </div>
+  )
+}
+
+/*
+<div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
         <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
           Get started by editing&nbsp;
           <code className="font-mono font-bold">src/app/page.tsx</code>
@@ -108,6 +131,4 @@ export default function Home() {
           </p>
         </a>
       </div>
-    </main>
-  )
-}
+ */
