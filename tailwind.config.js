@@ -6,11 +6,24 @@ module.exports = {
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
+  
   theme: {
+    screens: {
+      'sm': {'min': '230px', 'max': '500px'},
+      'md': {'min': '501px', 'max': '750px'},
+      'lg': {'min': '751px', 'max': '1024px'},
+      'xl': {'min': '1280px', 'max': '1535px'}
+
+    },
     colors : {
       'green': "#E9660A",
       'blue': '#1F6E8C',
       'air': '#D2E9E9',
+      'zinc': '#71717a',
+      'red': '#f87171',
+      'orange': '#f97316',
+      'lime': '#a3e635',
+      'violet': '#4c1d95'
 
     },
     extend: {
