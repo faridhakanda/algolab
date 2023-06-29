@@ -9,6 +9,7 @@ module.exports = {
   
   theme: {
     screens: {
+      'mobile': {'min': '200px', 'max': '229px'},
       'sm': {'min': '230px', 'max': '500px'},
       'md': {'min': '501px', 'max': '750px'},
       'lg': {'min': '751px', 'max': '1024px'},
@@ -23,7 +24,8 @@ module.exports = {
       'red': '#f87171',
       'orange': '#f97316',
       'lime': '#a3e635',
-      'violet': '#4c1d95'
+      'violet': '#4c1d95',
+      'gray': '#6b7280',
 
     },
     extend: {
