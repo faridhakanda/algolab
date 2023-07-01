@@ -5,7 +5,7 @@ import Image from 'next/image'
 const Contact = () => {
   return (
     <div className="text-center items-center mt-16">
-      <div className="bg-blue border-1 shadow-xl rounded mb-1 px-4 py-4 sm:bg-lime  max-w-md mx-auto sm:mx-1 sm:px-1 sm:rounded sm:max-w-xl md:bg-violet md:mx-auto md:px-3 md:py-3 md:border-1 md:rounded lg:bg-orange lg:mx-auto lg:px-3 lg:py-3 lg:border-1 lg:rounded xl:bg-lime xl:mx-auto xl:py-3 xl:px-3 xl:border-1 xl:rounded">
+      <div className="bg-blue border-1 justify-start shadow-xl rounded mb-1 px-4 py-4 sm:bg-lime  max-w-md mx-auto sm:mx-1 sm:px-1 sm:rounded sm:max-w-xl md:bg-violet md:mx-auto md:px-3 md:py-3 md:border-1 md:rounded lg:bg-orange lg:mx-auto lg:px-3 lg:py-3 lg:border-1 lg:rounded xl:bg-lime xl:mx-auto xl:py-3 xl:px-3 xl:border-1 xl:rounded">
 
         <h1 className="mt-6 text-2xl font-bold text-violet md:text-lime">
           You are welcome to our community<span className="text-green"> to work with us!</span>

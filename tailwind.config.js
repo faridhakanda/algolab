@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 //const colors = require('tailwindcss/colors')
+// xl min: 1280px and max: 1535px
 module.exports = {
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -13,7 +14,7 @@ module.exports = {
       'sm': {'min': '230px', 'max': '500px'},
       'md': {'min': '501px', 'max': '750px'},
       'lg': {'min': '751px', 'max': '1024px'},
-      'xl': {'min': '1280px', 'max': '1535px'}
+      'xl': {'min': '1025px', 'max': '1300px'}
 
     },
     colors : {
