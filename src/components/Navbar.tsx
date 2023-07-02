@@ -6,7 +6,9 @@ const Navbar = () => {
   return (
     <div className="fixed bg-air flex justify-around w-full h-14 top-0 items-center sm:p-2">
       <div className="text-3xl text-violet sm:text-2xl">
-        <Link className="border rounded bg-blue" href="/">FA</Link>
+        <Link className="" href="/">
+          <h1>Fsoft</h1>
+        </Link>
       </div>
       <div className="flex space-x-20 sm:space-x-1 md:space-x-5 lg:space-x-20">
           <Link className="items-center" href="/">
@@ -18,14 +20,15 @@ const Navbar = () => {
             <span className="text-base sm:text-xs">Blog</span>
           </Link>
           
-        <Link href="/contact">
-          <Image src="/contact.png" alt="contact" width={w} height={w}/>
-          <span className="text-base sm:text-xs">Contact</span>
-        </Link>
-        <Link href="/about">
-          <Image src="/about.png" alt="about" width={w} height={w}/>
-          <span className="text-base sm:text-xs">About</span>
-        </Link>
+          <Link href="/contact">
+            <Image src="/contact.png" alt="contact" width={w} height={w}/>
+            <span className="text-base sm:text-xs">Contact</span>
+          </Link>
+          <Link href="/about">
+            <Image src="/about.png" alt="about" width={w} height={w}/>
+            <span className="text-base sm:text-xs">About</span>
+          </Link>
+          
       </div>
         
     </div>

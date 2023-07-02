@@ -73,7 +73,7 @@ const blogs = [
       <div className="flex flex-col mt-16 items-center">
         
         
-        <div className="bg-air w-1/2 sm:w-full sm:rounded-none md:w-5/6 sm:h-fit flex flex-col border rounded-lg m-1 divide-y">
+        <div className="bg-air w-1/2 sm:w-full sm:rounded-none md:w-5/6 sm:h-fit flex flex-col md:border lg:border xl:border rounded-lg m-1 divide-y">
           <div className="flex flex-row justify-between p-3">
             <div className="flex flex-row justify-around items-start text-start">
               <Image className="w-12 h-12" src="/linux.svg" alt="avatar" width="0" height="0"/>
